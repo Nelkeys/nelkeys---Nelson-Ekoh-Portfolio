@@ -215,7 +215,7 @@ nav ul li a{
 }
 .card{
     width: 20%;
-    height: 25em;
+    height: 30em;
     background: #fff;
     box-shadow: 0 0 10px #ddd;
     padding: 1.5em;
@@ -226,6 +226,10 @@ nav ul li a{
     flex: 1 1 1 calc(33.333% - 1em); /* Three cards per row with spacing */
     box-sizing: border-box; 
     transition: .5s ease;
+}
+.card-logo{
+    width: auto;
+    height: 8em;
 }
 .project-title{
     font-weight: 400;
