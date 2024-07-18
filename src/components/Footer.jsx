@@ -5,7 +5,7 @@ function Footer() {
 
     return (
         <footer className="footer">
-            <p>&copy; {currentYear} Copoyright: Nelson Ekoh</p>
+            <p>&copy; {currentYear} Copyright: Nelson Ekoh</p>
 
             <div className="social-icons">
                 <i class='bx bxl-facebook-circle' onClick={() => window.open('https://www.facebook.com/profile.php?id=61560002280377&mibextid=ZbWKwL', '_blank')}></i>
