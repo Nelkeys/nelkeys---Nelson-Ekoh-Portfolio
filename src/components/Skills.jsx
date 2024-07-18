@@ -16,7 +16,7 @@ function Skills() {
                     </div>
 
                     <p className="skill-det">
-                        Python, Javascript, TypeScript, Java, C, C++, SQL, NoSQL, Ruby
+                        Python, Javascript, C, C++
                     </p>
                 </div>
 
@@ -28,7 +28,7 @@ function Skills() {
                     </div>
 
                     <p className="skill-det">
-                        Illustrator, XD, Photoshop, Final Cut Pro
+                        Photoshop, Figma, Canva
                     </p>
                 </div>
 
@@ -40,7 +40,7 @@ function Skills() {
                     </div>
 
                     <p className="skill-det">
-                        Vue, Angular, React, Node, Flask, HTML, CSS
+                        Vue, React, HTML, CSS
                     </p>
                 </div>
             </div>
