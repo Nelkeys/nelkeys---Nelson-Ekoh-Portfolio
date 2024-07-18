@@ -13,7 +13,7 @@ function About() {
                         <div className="item-line"></div>
 
                         <div className="item-details">
-                            <h3 className="item-title">Akwa-ibom State University, Nigeria</h3>
+                            <h3 className="item-title">Akwa-Ibom State University, Nigeria</h3>
                             <span className="date">Mar, 2022 - Present</span>
 
                             <p className="item-paragraph">Currently pursuing my BSc in Computer Science, while specializing in the field of Artificial Intelligence and Machine Learning.</p>
