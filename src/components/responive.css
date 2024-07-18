@@ -1,0 +1,228 @@
+/* Responsive breakpoints */
+
+
+
+
+/* Desktops (1025px and above) */
+@media (max-width: 1025px) {
+
+    .header {
+        padding: 1em 5em !important;
+    }
+
+    .hero-image {
+        width: 300px !important;
+        height: 300px !important;
+        border: 1px solid #555;
+        border-radius: 50%;
+    }
+
+    .banner {
+        align-items: center !important;
+        gap: 5em !important;
+    }
+
+    .banner .info {
+        width: 50% !important;
+    }
+
+    .about {
+        padding: 3em 5em !important;
+    }
+
+    .timeline .education,
+    .timeline .experience {
+        width: 40% !important;
+    }
+
+    .skills {
+        margin: 3em 5em !important;
+    }
+
+
+    .portfolio {
+        padding: 3em 5em !important;
+    }
+
+    .cards {
+        justify-content: space-between;
+    }
+
+    .card {
+        width: 40% !important;
+        height: auto !important;
+        flex: 1 1 1 calc(33.333% - 1em);
+    }
+
+    .see-github {
+        margin-top: 2.5em !important;
+    }
+
+    form {
+        width: 55% !important;
+    }
+
+    .footer {
+        padding: 1.3em 5em !important;
+    }
+}
+
+@media (max-width: 990px) {
+    header {
+        padding: 1em 10em !important;
+        align-items: flex-start !important;
+        flex-direction: column !important;
+        transition: .5s ease;
+    }
+
+    .lic {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .bx-menu {
+        display: block !important;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 1em !important;
+        margin-top: 1em;
+        margin-left: .8em;
+    }
+}
+
+
+
+
+
+
+/* Tablets (481px to 768px) */
+@media(max-width: 800px) {
+    body {
+        font-size: 15px !important;
+    }
+
+    .header {
+        padding: 1em 3em !important;
+    }
+
+    .banner {
+        flex-direction: column !important;
+    }
+
+    .banner .info {
+        width: 80% !important;
+    }
+
+    .timeline {
+        flex-direction: column;
+        align-items: center !important;
+    }
+
+
+    .timeline .education,
+    .timeline .experience {
+        width: 70% !important;
+    }
+
+    .skill-container {
+        flex-direction: column;
+        align-items: center !important;
+    }
+
+    .name-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center !important;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 70% !important;
+    }
+
+    form {
+        width: 70% !important;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile devices (up to 480px) */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px !important;
+    }
+
+    .header {
+        padding: 1em 1em !important;
+    }
+
+    .banner .info {
+        width: 80%;
+    }
+    .hero-image {
+        width: 230px !important;
+        height: 230px !important;
+        border: 1px solid #555;
+        border-radius: 50%;
+    }
+
+    .about {
+        padding: 3em 2em !important;
+    }
+
+    .skills {
+        margin: 3em 1em !important;
+    }
+    .timeline{
+        padding: 3em 0 !important;
+        align-items: flex-start !important;
+    }
+    .timeline .education,
+    .timeline .experience {
+        width: 100% !important;
+    }
+
+    .portfolio {
+        padding: 3em 1em !important;
+    }
+
+    .card {
+        width: 90% !important;
+    }
+
+    form {
+        width: 90% !important;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 1.5em;   
+        text-align: center;
+    }
+}
